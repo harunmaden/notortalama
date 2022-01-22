@@ -24,8 +24,9 @@ public class Main {
             int toplam = (mat + fizik + kimya + turkce + tarih + muzik);
             double sonuc = toplam / 6;
             System.out.println("ortalama:" + sonuc);
-
-
+            Boolean kosul = sonuc > 60;
+            String str = (kosul) ? "Geçti" : "kaldı";
+            System.out.println(str);
 
         }
 
